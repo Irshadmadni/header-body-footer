@@ -1,0 +1,141 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(8, 171, 13);
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: blueviolet;
+    height: 100px;
+    padding-top: 30px;
+}
+span{
+    background-color: blue;
+    padding: 05px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    justify-content: space-around;
+    width: 100%;
+    height: 30px;
+    
+}
+.logo{
+    font-family: fantasy;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    border: 10px groove brown;
+    border-radius: 50%;
+    background-color: crimson;
+    padding: 05px;
+    float: left;
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 05px 20px;
+    font-size: 18px;
+    border-right: 1px dotted white;
+}
+.menu a:hover{
+color: blue
+}
+.reg a{
+    text-decoration: none;
+    color: white;
+    padding: 05px 10px;
+    font-size: 15px;
+    background-color: rgb(18, 87, 235);
+    transition: 0.4s;
+    border-radius: 5px;
+}
+.reg a:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.main{
+    border: 2px solid black;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background-color: rgb(13, 242, 250);
+}
+.a,.c{
+    width: 20%;
+    height: 690px;
+    border: 1px solid gray;
+    background-color: honeydew;
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+.b{
+    width: 60%;
+    height: 690px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: darkgrey;
+    display: flex;
+}
+.d{
+    width: 25%;
+    height: 280px;
+    text-align: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.a ul li a{
+    display: block;
+    text-decoration: none;
+    margin-top: 10px;
+    position: relative;
+    text-align: justify;
+    margin-left: 15px;
+}
+.a ul li a:hover{
+    color: chocolate;
+}
+table{
+    border-spacing: 10px;
+    margin-left: 08px;
+}
+ table tr td{
+    padding: 10px;
+    box-shadow: 0px 05px 10px 0px gray;
+    background-color: white;
+}
+.p{
+    text-align: justify;
+    font-family: fantasy;
+    color: brown;
+}
+.r{
+    margin-left: 30px;
+}
+.fas{
+    margin-right: 05px;
+}
